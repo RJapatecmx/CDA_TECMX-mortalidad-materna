@@ -1,9 +1,6 @@
 # CDA_TECMX-mortalidad-materna
 Análisis exploratorio de determinantes de la mortalidad materna utilizando dataset de Kaggle.
 
-
-# Maternal Mortality Ratio (MMR) 1990–2021 — CDA Scoping
-
 ## Problema
 La Razón de Mortalidad Materna (MMR) es el número de muertes maternas por cada 100,000 nacidos vivos. 
 Este proyecto describe cómo ha cambiado la MMR a nivel mundial entre 1990 y 2021, con énfasis en identificar países donde la MMR sigue siendo alta o donde el progreso se ha frenado. El foco es generar evidencia útil para orientar prioridades (dónde poner más atención, qué países están estancados y cuáles mejoran con mayor consistencia) y posteriormente analizar determinantes de mejora.
