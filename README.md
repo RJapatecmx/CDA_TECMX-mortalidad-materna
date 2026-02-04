@@ -38,6 +38,6 @@ Monitoreo: actualizar cuando haya nuevos datos y revisar si cambian las conclusi
 
 Bases de datos:
 
-https://www.kaggle.com/datasets/iamsouravbanerjee/maternal-mortality-dataset/data "Maternal Mortality Dataset (Kaggle)
+https://www.kaggle.com/datasets/iamsouravbanerjee/maternal-mortality-dataset/data 
 https://www.cdc.gov/maternal-mortality/php/pregnancy-mortality-surveillance-data/index.html
 https://data.unicef.org/topic/maternal-health/maternal-mortality/
