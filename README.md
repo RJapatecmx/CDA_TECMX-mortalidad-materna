@@ -14,12 +14,12 @@ Este proyecto describe cómo ha cambiado la MMR a nivel mundial entre 1990 y 202
 Con los resultados, un equipo de salud pública (ministerio/ONG/cooperación) puede:
 1. Priorizar países (o grupos de países) para asistencia técnica y focalización de recursos, especialmente aquellos con MMR alta y estancamiento reciente.
 2. Activar monitoreo/alertas cuando un país deje de mejorar o muestre retrocesos, para revisar posibles causas (shocks del sistema, cambios de política, conflictos, etc.).
-3. Preparar un brief simple para tomadores de decisión explicando dónde está el problema, qué tan grande es y por qué esos países aparecen como prioritarios.
-4. Explorar determinantes que expliquen el estado de situación de cada país.
+3. Preparar un brief simple para la toma de decisión explicando dónde está el problema, qué tan grande es y por qué esos países aparecen como prioritarios.
+4. Explorar aquellos determinantes que expliquen el estado de situación de cada país.
 
 ## Datos
 Dataset base: “Maternal Mortality Dataset” (Kaggle), con MMR por país para 1990–2021 y variables de contexto (ISO3, país, continente, grupos de desarrollo humano, regiones UNDP, HDI rank 2021).
-Datasets adicionales: Mortalidad materna y embarazo y supervisión por el Centro para Control y Prevención de Enfermedades (CDC) de Estados Unidos. Maternidad materna por UNICEF, datos de panel. 
+Datasets adicionales: Mortalidad materna y embarazo y supervisión por el Centro para Control y Prevención de Enfermedades (CDC) de Estados Unidos. Mortalidad materna por UNICEF, datos de panel. 
 Granularidad: país-año (no es data clínica individual).  
 Datos adicionales deseables (no obligatorios para esta tarea): indicadores como partos atendidos por personal calificado, cobertura prenatal, gasto en salud y shocks (pandemias, conflictos), para mejorar interpretación de cambios. Así como datos de paises con mejores avances.
 
