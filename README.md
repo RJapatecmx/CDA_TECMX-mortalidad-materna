@@ -69,3 +69,18 @@ notebooks/01_EDA_Maternal_Mortality.ipynb
 	•	Fuerte asociación con nivel de desarrollo humano
 
 El EDA demuestra viabilidad estadística del problema para modelado supervisado.
+
+## Análisis Exploratorio de Datos
+
+El análisis exploratorio alineado al Dataset "Maternal Mortality" de Unicef se encuentra en:
+
+notebooks/02_EDA_Rubrica_Punto3_UNICEF.ipynb
+
+El EDA incluye:
+- Descripción formal de datos
+- Limpieza y transformación
+- Estadísticas descriptivas
+- Análisis de valores faltantes
+- Identificación de outliers
+- Visualizaciones interpretadas
+- Cierre de viabilidad empírica
