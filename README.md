@@ -38,3 +38,39 @@ Bases de datos:
 https://www.kaggle.com/datasets/iamsouravbanerjee/maternal-mortality-dataset/data 
 https://www.cdc.gov/maternal-mortality/php/pregnancy-mortality-surveillance-data/index.html
 https://data.unicef.org/topic/maternal-health/maternal-mortality/
+
+⸻
+## 3. Datos y Análisis Exploratorio (EDA)
+⸻
+# 3.1 Fuente de Datos
+
+Los datos provienen de UNICEF Data – Maternal Mortality (MMR), definida como el número de muertes maternas por cada 100,000 nacidos vivos.
+
+Periodo: 1990–2021
+Unidad de análisis: País–Año
+Observaciones totales: 6,240
+Valores válidos en MMR: 5,888
+
+Notebook de respaldo:
+notebooks/01_EDA_Maternal_Mortality.ipynb
+
+⸻
+
+# 3.2 Limpieza y Preparación
+	•	Transformación de formato wide a long usando pandas.melt()
+	•	Extracción del año mediante expresión regular
+	•	Identificación de 5.64% de valores faltantes
+	•	No imputación para evitar sesgo estructural
+	•	Identificación de cola pesada (MMR max = 2990)
+	•	Creación de variable Period (1990s, 2000s, 2010s)
+
+⸻
+
+# 3.3 Hallazgos Principales del EDA
+	•	Distribución altamente asimétrica (media 235 vs mediana 72)
+	•	Reducción global sostenida (~45% desde 1990s)
+	•	África presenta niveles ~38 veces superiores a Europa en 1990s
+	•	Reducción desigual entre continentes
+	•	Fuerte asociación con nivel de desarrollo humano
+
+El EDA demuestra viabilidad estadística del problema para modelado supervisado.
